@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "New Tab Chrome Extension",
+    "version": "1.0",
+    "description": "Custom Chrome Extension",
+    "author": "Unknown Alien",
+    "permissions": [
+        "tabs"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "action": {
+        "default_assets/icon": {
+            "16": "assets/icon.png",
+            "48": "assets/icon.png",
+            "128": "assets/icon.png"
+        }
+    },
+    "assets/icons": {
+        "16": "assets/icon.png",
+        "48": "assets/icon.png",
+        "128": "assets/icon.png"
+    }
+}
