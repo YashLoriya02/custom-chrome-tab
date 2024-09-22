@@ -8,7 +8,7 @@
         "tabs"
     ],
     "background": {
-        "service_worker": "background.js"
+        "service_worker": "js/background.js"
     },
     "chrome_url_overrides": {
         "newtab": "index.html"
@@ -20,7 +20,7 @@
             "128": "assets/icon.png"
         }
     },
-    "assets/icons": {
+    "icons": {
         "16": "assets/icon.png",
         "48": "assets/icon.png",
         "128": "assets/icon.png"
