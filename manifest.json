@@ -1,5 +1,5 @@
 {
-    "manifest_version": 3,
+    "manifest_version": 4,
     "name": "New Tab Chrome Extension",
     "version": "1.0",
     "description": "Custom Chrome Extension",
